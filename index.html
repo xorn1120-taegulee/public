@@ -1,0 +1,989 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="더나은티앤씨 - 친환경 바닥재 전문 기업. 물류센터, 주차장, HACCP, 의료시설, 수영장, 해양설비 등 맞춤형 바닥 솔루션 제공.">
+    <meta name="keywords" content="친환경바닥재, 논슬립바닥, HACCP바닥, 주차장방수, 수영장바닥, 해양설비, 물류센터바닥, 의료시설바닥">
+    <title>더나은티앤씨 - 친환경 바닥재 전문 기업</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/icons/favicon.png">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <a href="index.html">
+                        <span class="logo-text">더나은티앤씨</span>
+                        <span class="logo-sub">THENAN T&C</span>
+                    </a>
+                </div>
+                
+                <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home" class="nav-link active">홈</a></li>
+                    <li class="dropdown">
+                        <a href="#about" class="nav-link">회사소개</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#about-company">회사개요</a></li>
+                            <li><a href="#about-vision">비전 & 미션</a></li>
+                            <li><a href="#about-certification">인증현황</a></li>
+                            <li><a href="#about-partners">글로벌 파트너</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#products" class="nav-link">제품 & 서비스</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#products-logistics">물류센터</a></li>
+                            <li><a href="#products-parking">주차장/방수</a></li>
+                            <li><a href="#products-haccp">HACCP/식품</a></li>
+                            <li><a href="#products-medical">의료시설</a></li>
+                            <li><a href="#products-aquatic">수영장/워터파크</a></li>
+                            <li><a href="#products-marine">해양설비</a></li>
+                            <li><a href="#products-chemical">화학공장</a></li>
+                            <li><a href="#products-outdoor">실외/도로</a></li>
+                            <li><a href="#products-nonslip">논슬립 시스템</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#portfolio" class="nav-link">시공사례</a></li>
+                    <li><a href="#technology" class="nav-link">기술력</a></li>
+                    <li><a href="#contact" class="nav-link">문의하기</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-slider">
+            <div class="hero-slide active">
+                <div class="hero-bg" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920')"></div>
+                <div class="container">
+                    <div class="hero-content" data-aos="fade-up">
+                        <h1 class="hero-title">친환경 소재로 만드는<br>안전하고 건강한 미래</h1>
+                        <p class="hero-subtitle">더나은티앤씨는 친환경 바닥재 전문 기업입니다</p>
+                        <div class="hero-buttons">
+                            <a href="#products" class="btn btn-primary">제품 둘러보기</a>
+                            <a href="#contact" class="btn btn-outline">문의하기</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-slide">
+                <div class="hero-bg" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1920')"></div>
+                <div class="container">
+                    <div class="hero-content" data-aos="fade-up">
+                        <h1 class="hero-title">글로벌 기술력과<br>국내 전문 시공</h1>
+                        <p class="hero-subtitle">독일 KLB-KOTZTAL · 미국 LIFEFLOOR · 노르웨이 Weber 한국지사</p>
+                        <div class="hero-buttons">
+                            <a href="#about-partners" class="btn btn-primary">파트너 소개</a>
+                            <a href="#portfolio" class="btn btn-outline">시공사례</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-slide">
+                <div class="hero-bg" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=1920')"></div>
+                <div class="container">
+                    <div class="hero-content" data-aos="fade-up">
+                        <h1 class="hero-title">솔벤트-ZERO<br>친환경 인증 제품</h1>
+                        <p class="hero-subtitle">EMICODE EC1 PLUS · VOC Free · 무취 친환경 바닥재</p>
+                        <div class="hero-buttons">
+                            <a href="#about-certification" class="btn btn-primary">인증현황</a>
+                            <a href="#technology" class="btn btn-outline">기술력 보기</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="hero-nav">
+            <button class="hero-nav-btn prev"><i class="fas fa-chevron-left"></i></button>
+            <button class="hero-nav-btn next"><i class="fas fa-chevron-right"></i></button>
+        </div>
+        
+        <div class="hero-indicators">
+            <span class="indicator active" data-slide="0"></span>
+            <span class="indicator" data-slide="1"></span>
+            <span class="indicator" data-slide="2"></span>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">더나은티앤씨의 강점</h2>
+                <p class="section-subtitle">왜 더나은티앤씨를 선택해야 하는가</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3 class="feature-title">친환경 인증</h3>
+                    <p class="feature-desc">EMICODE EC1 PLUS 등급, VOC Free, 솔벤트-ZERO 친환경 제품</p>
+                </div>
+                
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 class="feature-title">안전성</h3>
+                    <p class="feature-desc">미끄럼방지(R9-R13), 내마모성, 내화학성 등 최고 등급 안전성 확보</p>
+                </div>
+                
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3 class="feature-title">글로벌 파트너십</h3>
+                    <p class="feature-desc">독일, 미국, 노르웨이 선진 기술 제휴 및 국내 총괄 유통·시공</p>
+                </div>
+                
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="feature-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3 class="feature-title">전문 시공</h3>
+                    <p class="feature-desc">20년 이상의 시공 경험과 특허 기술로 완벽한 시공 품질 보장</p>
+                </div>
+                
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="feature-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3 class="feature-title">품질 보증</h3>
+                    <p class="feature-desc">유럽 표준 DIN EN 1504-2, OS 8/11 등 엄격한 품질 기준 준수</p>
+                </div>
+                
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3 class="feature-title">맞춤형 솔루션</h3>
+                    <p class="feature-desc">산업별 특성에 맞춘 최적화된 바닥재 시스템 설계 및 제공</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <h2 class="section-title">회사소개</h2>
+                    <h3 class="about-subtitle">친환경 인테리어 전문 기업</h3>
+                    <p class="about-desc">
+                        더나은티앤씨(주)와 (주)인팩토리는 친환경 인테리어 전문 기업입니다. 
+                        독일 KLB-KOTZTAL, 미국 LIFEFLOOR, 노르웨이 Weber의 한국지사로서 
+                        각 회사 제품의 유통 및 전문 시공을 총괄하고 있으며, 
+                        안전하고 우수한 제품을 국내에 공급하고 있습니다.
+                    </p>
+                    <p class="about-desc">
+                        한 공간의 바닥과 천정, 그리고 드넓은 바다의 해양 설비의 바닥 시스템에 이르기까지 
+                        차별화된 제품으로 무취, 솔벤트-ZERO인 친환경 제품을 공급하고 있으며, 
+                        산업안전보건 및 환경 보호에 대한 기준을 충족하는 고품질의 원료만을 사용하고 있습니다.
+                    </p>
+                    <div class="about-features">
+                        <div class="about-feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>친환경 무취 솔벤트-ZERO 제품</span>
+                        </div>
+                        <div class="about-feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>산업안전보건 기준 충족</span>
+                        </div>
+                        <div class="about-feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>글로벌 파트너십 기반 기술력</span>
+                        </div>
+                        <div class="about-feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>20년 이상 시공 경험</span>
+                        </div>
+                    </div>
+                    <a href="#contact" class="btn btn-primary">문의하기</a>
+                </div>
+                
+                <div class="about-image" data-aos="fade-left">
+                    <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=800" alt="회사소개">
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <h4 class="stat-number">20+</h4>
+                            <p class="stat-label">년 경험</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4 class="stat-number">1000+</h4>
+                            <p class="stat-label">프로젝트</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4 class="stat-number">100+</h4>
+                            <p class="stat-label">파트너사</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products" id="products">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">제품 & 서비스</h2>
+                <p class="section-subtitle">산업별 맞춤형 바닥재 솔루션</p>
+            </div>
+            
+            <div class="products-grid">
+                <div class="product-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=600" alt="물류센터">
+                        <div class="product-overlay">
+                            <a href="#products-logistics" class="product-link">자세히 보기 <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-title">물류센터 바닥</h3>
+                        <p class="product-desc">Superflat 초평탄, OS 8 내구성 시스템, 고내하중 바닥재</p>
+                        <ul class="product-features">
+                            <li><i class="fas fa-check"></i> 초평탄 시공</li>
+                            <li><i class="fas fa-check"></i> 내하중/내마모</li>
+                            <li><i class="fas fa-check"></i> 방진/균열방지</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="product-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1590674899484-d5640e854abe?w=600" alt="주차장">
+                        <div class="product-overlay">
+                            <a href="#products-parking" class="product-link">자세히 보기 <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-title">주차장/방수 바닥</h3>
+                        <p class="product-desc">OS 8/11 주차장 시스템, 옥상 방수, 램프 전용 바닥재</p>
+                        <ul class="product-features">
+                            <li><i class="fas fa-check"></i> 방수/논슬립</li>
+                            <li><i class="fas fa-check"></i> UV 저항성</li>
+                            <li><i class="fas fa-check"></i> 저소음</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="product-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=600" alt="HACCP">
+                        <div class="product-overlay">
+                            <a href="#products-haccp" class="product-link">자세히 보기 <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-title">HACCP/식품 바닥</h3>
+                        <p class="product-desc">PU CRETE, ST 무취 다기능, 위생 전용 시스템</p>
+                        <ul class="product-features">
+                            <li><i class="fas fa-check"></i> 위생성/항균</li>
+                            <li><i class="fas fa-check"></i> 내열성</li>
+                            <li><i class="fas fa-check"></i> 빠른 경화</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="product-card" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=600" alt="의료시설">
+                        <div class="product-overlay">
+                            <a href="#products-medical" class="product-link">자세히 보기 <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-title">의료시설 바닥</h3>
+                        <p class="product-desc">ESD/정전기 방지, 위생 벽체 마감, 내화학성 바닥재</p>
+                        <ul class="product-features">
+                            <li><i class="fas fa-check"></i> 정전기 방지</li>
+                            <li><i class="fas fa-check"></i> 위생/내화학성</li>
+                            <li><i class="fas fa-check"></i> 유지관리 용이</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="product-card" data-aos="zoom-in" data-aos-delay="500">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1576610616656-d3aa5d1f4534?w=600" alt="수영장">
+                        <div class="product-overlay">
+                            <a href="#products-aquatic" class="product-link">자세히 보기 <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-title">수영장/워터파크</h3>
+                        <p class="product-desc">LIFEFLOOR NSF 인증, 스플래쉬 패드, 일체형 방수</p>
+                        <ul class="product-features">
+                            <li><i class="fas fa-check"></i> NSF 인증</li>
+                            <li><i class="fas fa-check"></i> 논슬립/쿠션</li>
+                            <li><i class="fas fa-check"></i> 내염소성</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="product-card" data-aos="zoom-in" data-aos-delay="600">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1605647540924-852290f6b0d5?w=600" alt="해양설비">
+                        <div class="product-overlay">
+                            <a href="#products-marine" class="product-link">자세히 보기 <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-title">해양설비 바닥</h3>
+                        <p class="product-desc">Weber Marine 30년 경험, DNV-GL/MED-B 인증</p>
+                        <ul class="product-features">
+                            <li><i class="fas fa-check"></i> DNV-GL 인증</li>
+                            <li><i class="fas fa-check"></i> 내화/내열</li>
+                            <li><i class="fas fa-check"></i> 항균/방수</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="product-card" data-aos="zoom-in" data-aos-delay="700">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=600" alt="화학공장">
+                        <div class="product-overlay">
+                            <a href="#products-chemical" class="product-link">자세히 보기 <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-title">화학공장 바닥</h3>
+                        <p class="product-desc">CM OS 8, 285CR, 280WHG 내산성/토양오염 방지</p>
+                        <ul class="product-features">
+                            <li><i class="fas fa-check"></i> 내화학성</li>
+                            <li><i class="fas fa-check"></i> 토양/수질 보호</li>
+                            <li><i class="fas fa-check"></i> 강한 부착력</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="product-card" data-aos="zoom-in" data-aos-delay="800">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1474496517593-015d8b59450d?w=600" alt="실외도로">
+                        <div class="product-overlay">
+                            <a href="#products-outdoor" class="product-link">자세히 보기 <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-title">실외/도로 바닥</h3>
+                        <p class="product-desc">DECO 천연석재, 자전거 도로, 테마 보도 시스템</p>
+                        <ul class="product-features">
+                            <li><i class="fas fa-check"></i> UV 차단</li>
+                            <li><i class="fas fa-check"></i> 경관 미려</li>
+                            <li><i class="fas fa-check"></i> 속경 시공</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="product-card" data-aos="zoom-in" data-aos-delay="900">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1604077350836-5b3390f49a87?w=600" alt="논슬립">
+                        <div class="product-overlay">
+                            <a href="#products-nonslip" class="product-link">자세히 보기 <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-title">논슬립 시스템</h3>
+                        <p class="product-desc">MICROGRIP, TITANIUMGRIP, UVGRIP 전문 솔루션</p>
+                        <ul class="product-features">
+                            <li><i class="fas fa-check"></i> 간편 시공</li>
+                            <li><i class="fas fa-check"></i> 장기 지속성</li>
+                            <li><i class="fas fa-check"></i> 다양한 재질</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="certifications" id="about-certification">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">인증 & 품질</h2>
+                <p class="section-subtitle">국제 표준 인증 및 친환경 인증 보유</p>
+            </div>
+            
+            <div class="certifications-content">
+                <div class="certification-categories">
+                    <div class="cert-category" data-aos="fade-up" data-aos-delay="100">
+                        <div class="cert-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <h3>친환경 인증</h3>
+                        <ul>
+                            <li>EMICODE EC1 PLUS</li>
+                            <li>VOC Free</li>
+                            <li>솔벤트-ZERO</li>
+                            <li>유럽 친환경 마크</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="cert-category" data-aos="fade-up" data-aos-delay="200">
+                        <div class="cert-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>안전 인증</h3>
+                        <ul>
+                            <li>미끄럼 저항 R9-R13</li>
+                            <li>NSF/ANSI/CAN Standard 50</li>
+                            <li>IMO Certification</li>
+                            <li>DIN EN 13451-1</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="cert-category" data-aos="fade-up" data-aos-delay="300">
+                        <div class="cert-icon">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <h3>품질 인증</h3>
+                        <ul>
+                            <li>DIN EN 1504-2</li>
+                            <li>OS 8/OS 11 기준</li>
+                            <li>DNV-GL 인증</li>
+                            <li>MED-B 인증</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="cert-category" data-aos="fade-up" data-aos-delay="400">
+                        <div class="cert-icon">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <h3>특허 & 기술</h3>
+                        <ul>
+                            <li>10개 이상 특허 보유</li>
+                            <li>독자 기술 개발</li>
+                            <li>Gripfactory 기술협력</li>
+                            <li>Kiwa 인증</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="quality-standards" data-aos="fade-up">
+                    <h3>주요 성능 기준</h3>
+                    <div class="standards-grid">
+                        <div class="standard-item">
+                            <h4>미끄럼 저항</h4>
+                            <p>R9 - R13 등급</p>
+                        </div>
+                        <div class="standard-item">
+                            <h4>내마모성</h4>
+                            <p>AR 0.5 - AR 3.0</p>
+                        </div>
+                        <div class="standard-item">
+                            <h4>접착강도</h4>
+                            <p>≥ 1.5 N/mm²</p>
+                        </div>
+                        <div class="standard-item">
+                            <h4>내화학성</h4>
+                            <p>강산/강알칼리 저항</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">시공 사례</h2>
+                <p class="section-subtitle">다양한 산업 분야의 성공적인 프로젝트</p>
+            </div>
+            
+            <div class="portfolio-filter" data-aos="fade-up">
+                <button class="filter-btn active" data-filter="all">전체</button>
+                <button class="filter-btn" data-filter="logistics">물류센터</button>
+                <button class="filter-btn" data-filter="parking">주차장</button>
+                <button class="filter-btn" data-filter="haccp">식품/HACCP</button>
+                <button class="filter-btn" data-filter="medical">의료시설</button>
+                <button class="filter-btn" data-filter="aquatic">수영장</button>
+                <button class="filter-btn" data-filter="marine">해양설비</button>
+            </div>
+            
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="logistics" data-aos="zoom-in">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1553413077-190dd305871c?w=600" alt="CJ물류센터">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>CJ대한통운 물류센터</h3>
+                                <p>Superflat 초평탄 시스템 / 15,000㎡</p>
+                                <span class="portfolio-category">물류센터</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="parking" data-aos="zoom-in">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1506521781263-d8422e82f27a?w=600" alt="주차장">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>롯데백화점 주차장</h3>
+                                <p>OS 8 방수 시스템 / 8,500㎡</p>
+                                <span class="portfolio-category">주차장</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="haccp" data-aos="zoom-in">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?w=600" alt="식품공장">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>CJ제일제당 식품공장</h3>
+                                <p>PU CRETE 위생 바닥 / 5,200㎡</p>
+                                <span class="portfolio-category">식품/HACCP</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="medical" data-aos="zoom-in">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1538108149393-fbbd81895907?w=600" alt="병원">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>서울대학교병원</h3>
+                                <p>ESD 정전기방지 시스템 / 3,800㎡</p>
+                                <span class="portfolio-category">의료시설</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="aquatic" data-aos="zoom-in">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1519456264917-42d0aa2e0625?w=600" alt="워터파크">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>에버랜드 캐리비안베이</h3>
+                                <p>LIFEFLOOR 논슬립 시스템 / 6,500㎡</p>
+                                <span class="portfolio-category">수영장</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="marine" data-aos="zoom-in">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1520452112805-c6692c840af0?w=600" alt="해양설비">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>대우조선해양</h3>
+                                <p>Weber Marine System / 12,000㎡</p>
+                                <span class="portfolio-category">해양설비</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="portfolio-stats" data-aos="fade-up">
+                <div class="stat-box">
+                    <i class="fas fa-building"></i>
+                    <h3>1,000+</h3>
+                    <p>완료된 프로젝트</p>
+                </div>
+                <div class="stat-box">
+                    <i class="fas fa-users"></i>
+                    <h3>500+</h3>
+                    <p>만족한 고객사</p>
+                </div>
+                <div class="stat-box">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>98%</h3>
+                    <p>고객 만족도</p>
+                </div>
+                <div class="stat-box">
+                    <i class="fas fa-globe"></i>
+                    <h3>3</h3>
+                    <p>글로벌 파트너</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partners Section -->
+    <section class="partners" id="about-partners">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">글로벌 파트너</h2>
+                <p class="section-subtitle">세계적인 기술력과 협력</p>
+            </div>
+            
+            <div class="partners-grid">
+                <div class="partner-card" data-aos="flip-left" data-aos-delay="100">
+                    <div class="partner-logo">
+                        <div class="partner-flag">🇩🇪</div>
+                        <h3>KLB-KOTZTAL</h3>
+                    </div>
+                    <div class="partner-info">
+                        <h4>독일</h4>
+                        <p>고품질 바닥재 시스템 전문 기업. 유럽 표준 DIN EN 인증 제품으로 물류센터, 주차장, 산업시설 바닥재 분야 선도</p>
+                        <ul>
+                            <li>물류센터 바닥 시스템</li>
+                            <li>주차장 방수 시스템</li>
+                            <li>산업용 바닥재</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="partner-card" data-aos="flip-left" data-aos-delay="200">
+                    <div class="partner-logo">
+                        <div class="partner-flag">🇺🇸</div>
+                        <h3>LIFEFLOOR</h3>
+                    </div>
+                    <div class="partner-info">
+                        <h4>미국</h4>
+                        <p>세계 최초 NSF 인증 수영장 바닥재. 45개국 3,500개 이상 프로젝트 완료. 논슬립 쿠션 타일 기술 세계 1위</p>
+                        <ul>
+                            <li>수영장 논슬립 타일</li>
+                            <li>워터파크 바닥재</li>
+                            <li>스플래쉬 패드 시스템</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="partner-card" data-aos="flip-left" data-aos-delay="300">
+                    <div class="partner-logo">
+                        <div class="partner-flag">🇳🇴</div>
+                        <h3>Weber Marine</h3>
+                    </div>
+                    <div class="partner-info">
+                        <h4>노르웨이</h4>
+                        <p>30년 해양설비 바닥재 전문 기업. DNV-GL, MED-B 인증. 조선해양, 크루즈선 바닥 시스템 글로벌 리더</p>
+                        <ul>
+                            <li>해양 플랫폼 바닥재</li>
+                            <li>크루즈선 바닥 시스템</li>
+                            <li>조선소 바닥재</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Section -->
+    <section class="technology" id="technology">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">기술력</h2>
+                <p class="section-subtitle">차별화된 기술과 혁신</p>
+            </div>
+            
+            <div class="technology-content">
+                <div class="tech-features">
+                    <div class="tech-feature" data-aos="fade-right" data-aos-delay="100">
+                        <div class="tech-icon">
+                            <i class="fas fa-flask"></i>
+                        </div>
+                        <div class="tech-info">
+                            <h3>솔벤트-FREE 기술</h3>
+                            <p>무취, VOC-Free, 친환경 솔벤트-ZERO 제품으로 작업자와 환경 모두 보호. EMICODE EC1 PLUS 최고 등급 인증</p>
+                        </div>
+                    </div>
+                    
+                    <div class="tech-feature" data-aos="fade-right" data-aos-delay="200">
+                        <div class="tech-icon">
+                            <i class="fas fa-layer-group"></i>
+                        </div>
+                        <div class="tech-info">
+                            <h3>다층 시스템 설계</h3>
+                            <p>프라이머-베이스-탑코트 최적화 설계로 완벽한 접착력, 내구성, 방수성 확보. 각 환경에 맞춘 맞춤형 레이어링</p>
+                        </div>
+                    </div>
+                    
+                    <div class="tech-feature" data-aos="fade-right" data-aos-delay="300">
+                        <div class="tech-icon">
+                            <i class="fas fa-temperature-high"></i>
+                        </div>
+                        <div class="tech-info">
+                            <h3>특수 환경 대응</h3>
+                            <p>고온/저온(-30°C~+80°C), 습윤 시공 가능, 내화학성(강산/강알칼리), 정전기 방지(ESD) 등 극한 환경 솔루션</p>
+                        </div>
+                    </div>
+                    
+                    <div class="tech-feature" data-aos="fade-right" data-aos-delay="400">
+                        <div class="tech-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="tech-info">
+                            <h3>속경화 시스템</h3>
+                            <p>2-4시간 보행 가능, 24시간 완전 경화로 공기 단축. AC 속경 보수재로 긴급 보수 대응 가능</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tech-comparison" data-aos="fade-up">
+                    <h3>기존 제품 vs 더나은티앤씨 제품</h3>
+                    <table class="comparison-table">
+                        <thead>
+                            <tr>
+                                <th>항목</th>
+                                <th>기존 제품</th>
+                                <th class="highlight">더나은티앤씨</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>VOC 배출</td>
+                                <td>높음 (유해)</td>
+                                <td class="highlight"><strong>ZERO (무해)</strong></td>
+                            </tr>
+                            <tr>
+                                <td>냄새</td>
+                                <td>강한 솔벤트 냄새</td>
+                                <td class="highlight"><strong>무취</strong></td>
+                            </tr>
+                            <tr>
+                                <td>시공 후 사용</td>
+                                <td>3-7일 소요</td>
+                                <td class="highlight"><strong>24시간 가능</strong></td>
+                            </tr>
+                            <tr>
+                                <td>미끄럼 저항</td>
+                                <td>R9-R10</td>
+                                <td class="highlight"><strong>R11-R13</strong></td>
+                            </tr>
+                            <tr>
+                                <td>내구성</td>
+                                <td>5-7년</td>
+                                <td class="highlight"><strong>10-15년</strong></td>
+                            </tr>
+                            <tr>
+                                <td>친환경 인증</td>
+                                <td>없음 또는 부분</td>
+                                <td class="highlight"><strong>EC1 PLUS</strong></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">문의하기</h2>
+                <p class="section-subtitle">프로젝트 상담 및 견적 문의</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <h3>연락처 정보</h3>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info-text">
+                            <h4>본사 주소</h4>
+                            <p>경기도 용인시 기흥구 동백중앙로 16번길 16-4<br>에이스 동백타워 1411, 1412, 1413</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="info-text">
+                            <h4>대표 전화</h4>
+                            <p>1551-9904</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="info-text">
+                            <h4>이메일</h4>
+                            <p>infactory-id@naver.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="info-text">
+                            <h4>운영 시간</h4>
+                            <p>평일 09:00 - 18:00<br>토요일/일요일/공휴일 휴무</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="contact-form" data-aos="fade-left">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">성함 *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">이메일 *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="phone">연락처 *</label>
+                                <input type="tel" id="phone" name="phone" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="company">회사명</label>
+                            <input type="text" id="company" name="company">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="category">문의 분야 *</label>
+                            <select id="category" name="category" required>
+                                <option value="">선택해주세요</option>
+                                <option value="logistics">물류센터 바닥</option>
+                                <option value="parking">주차장/방수</option>
+                                <option value="haccp">HACCP/식품</option>
+                                <option value="medical">의료시설</option>
+                                <option value="aquatic">수영장/워터파크</option>
+                                <option value="marine">해양설비</option>
+                                <option value="chemical">화학공장</option>
+                                <option value="outdoor">실외/도로</option>
+                                <option value="nonslip">논슬립 시스템</option>
+                                <option value="other">기타</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">문의 내용 *</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        
+                        <div class="form-group checkbox-group">
+                            <input type="checkbox" id="privacy" name="privacy" required>
+                            <label for="privacy">개인정보 수집 및 이용에 동의합니다. *</label>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-block">문의 보내기</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>더나은티앤씨 주식회사</h3>
+                    <p class="footer-desc">
+                        친환경 바닥재 전문 기업으로 안전하고 건강한 미래를 만들어갑니다.
+                    </p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>제품 & 서비스</h4>
+                    <ul>
+                        <li><a href="#products-logistics">물류센터 바닥</a></li>
+                        <li><a href="#products-parking">주차장/방수</a></li>
+                        <li><a href="#products-haccp">HACCP/식품</a></li>
+                        <li><a href="#products-medical">의료시설</a></li>
+                        <li><a href="#products-aquatic">수영장/워터파크</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>회사정보</h4>
+                    <ul>
+                        <li><a href="#about">회사소개</a></li>
+                        <li><a href="#about-certification">인증현황</a></li>
+                        <li><a href="#about-partners">글로벌 파트너</a></li>
+                        <li><a href="#portfolio">시공사례</a></li>
+                        <li><a href="#technology">기술력</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>문의처</h4>
+                    <ul class="footer-contact">
+                        <li><i class="fas fa-map-marker-alt"></i> 경기도 용인시 기흥구 동백중앙로 16번길 16-4</li>
+                        <li><i class="fas fa-phone"></i> 1551-9904</li>
+                        <li><i class="fas fa-envelope"></i> infactory-id@naver.com</li>
+                        <li><i class="fas fa-clock"></i> 평일 09:00 - 18:00</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 더나은티앤씨 주식회사 & (주)인팩토리. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">개인정보처리방침</a>
+                    <a href="#">이용약관</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- AOS Animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- Custom JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
